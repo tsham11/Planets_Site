@@ -19,7 +19,7 @@ export default function RootLayout() {
   const menuContainerRef = useRef(null);
 
   useEffect(() => {
-    navigate("/Planets_Site/");
+    navigate("/Planets_Site/mercury");
   }, [navigate]);
 
   const toggleMenu = () => {
