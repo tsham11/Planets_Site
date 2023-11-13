@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Outlet, NavLink, useNavigate } from "react-router-dom";
-import Menu from '../images/icon-hamburger.svg'
+import Menu from "../images/icon-hamburger.svg";
 import Arrow from "../images/icon-chevron.svg";
 
 const planets = [
@@ -19,7 +19,7 @@ export default function RootLayout() {
   const menuContainerRef = useRef(null);
 
   useEffect(() => {
-    navigate("mercury"); ///Planets_Site/
+    navigate("/Planets_Site/");
   }, [navigate]);
 
   const toggleMenu = () => {
@@ -33,19 +33,13 @@ export default function RootLayout() {
       <header>
         <nav>
           <h1>THE PLANETS</h1>
-          <img
-            src={Menu}
-            alt="menu"
-            className="menu"
-            onClick={toggleMenu}
-          />
+          <img src={Menu} alt="menu" className="menu" onClick={toggleMenu} />
           <div className="nav-links" ref={menuContainerRef}>
             {planets.map((planet) => (
               <div className="pl" key={planet} onClick={toggleMenu}>
                 <div className="cpl">
                   <div className={`circle ${planet}`}></div>
-                  <NavLink to={`${planet}`}>
-                    {/* `/Planets_Site/${planet}` */}
+                  <NavLink to={`/Planets_Site/${planet}`}>
                     {planet.toUpperCase()}
                   </NavLink>
                 </div>

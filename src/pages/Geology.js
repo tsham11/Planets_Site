@@ -4,6 +4,7 @@ import Source from "../images/icon-source.svg";
 
 function Geology() {
   const [planet] = useOutletContext();
+
   return (
     <>
       <div className="imgg">

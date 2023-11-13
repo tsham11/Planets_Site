@@ -16,7 +16,7 @@ import Geology from "./pages/Geology";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />}>
+    <Route path="/Planets_Site" element={<RootLayout />}>
       <Route path=":planet" element={<PlanetLayout />}>
         <Route index element={<Overview />}></Route>
         <Route path="overview" element={<Overview />}></Route>

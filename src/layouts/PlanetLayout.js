@@ -7,7 +7,7 @@ export default function PlanetLayout() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    navigate(`/${planet}/overview`);
+    navigate(`/Planets_Site/${planet}/overview`);
   }, [navigate, planet]);
 
   return (
