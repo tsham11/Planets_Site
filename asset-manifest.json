@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Planets_Site/static/css/main.8692c4eb.css",
-    "main.js": "/Planets_Site/static/js/main.03c458d6.js",
+    "main.js": "/Planets_Site/static/js/main.6b947187.js",
     "static/media/geology-mercury.png": "/Planets_Site/static/media/geology-mercury.aa6732c318454e3fc480.png",
     "static/media/geology-venus.png": "/Planets_Site/static/media/geology-venus.484f9dacbeb3b555ffba.png",
     "static/media/geology-mars.png": "/Planets_Site/static/media/geology-mars.d3ffce8e1e9b9bc5df60.png",
@@ -32,10 +32,10 @@
     "static/media/icon-hamburger.svg": "/Planets_Site/static/media/icon-hamburger.05a40a49142005f6faf230286ab38214.svg",
     "static/media/icon-chevron.svg": "/Planets_Site/static/media/icon-chevron.8915cee97f993fb990aac66c578ad575.svg",
     "main.8692c4eb.css.map": "/Planets_Site/static/css/main.8692c4eb.css.map",
-    "main.03c458d6.js.map": "/Planets_Site/static/js/main.03c458d6.js.map"
+    "main.6b947187.js.map": "/Planets_Site/static/js/main.6b947187.js.map"
   },
   "entrypoints": [
     "static/css/main.8692c4eb.css",
-    "static/js/main.03c458d6.js"
+    "static/js/main.6b947187.js"
   ]
 }
